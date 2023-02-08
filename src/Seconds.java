@@ -18,6 +18,7 @@ public class Seconds {
         System.out.println("Enter the amount of seconds you wish to convert: ");
         int seconds = in.nextInt();
 
+        //Splits up the seconds into hours, minutes and seconds.
         int hours = (seconds / 60) / 60;
         int minutes = (seconds / 60) % 60;
         int secondsRemainder = seconds % 60;

@@ -19,6 +19,7 @@ public class Cylinder {
         System.out.println("Enter the length of your cylinder: ");
         double length = in.nextDouble();
 
+        //Specified value of pi and formulas for the base area and volume of cylinder.
         double pi = 3.1416;
         double areaBase = pi * radiusBase * radiusBase;
         double volume = pi * radiusBase* radiusBase * length;

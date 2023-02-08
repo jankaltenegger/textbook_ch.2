@@ -27,6 +27,7 @@ public class PaintedRoom {
         System.out.println("Enter the amount of doors in your room: ");
         int doors = in.nextInt();
 
+        //Calculates area of the room, minus the ceiling and area doors and windows take up.
         double area = (((width * length) + (2 * length * height) + (2 * width * height)) - (windows * 15) - (doors * 21));
         int gallons = (int) area / 350;
         double quarts = (area / 350) % 4;
